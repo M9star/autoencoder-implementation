@@ -10,7 +10,7 @@ Each model compresses a 28×28 handwritten digit and rebuilds it. Training is un
 | `variational` | `autoencoders/variational.py` | Bottleneck is a distribution. Decoder can sample new digits. |
 | `sparse` | `autoencoders/sparse.py` | Wide bottleneck with an L1 penalty so most units stay off. |
 
-Shared pieces live next to those modules: `data.py` loads `data/mnist.npz`, `gpu.py` turns on tensorflow-metal, `figures.py` writes the plots.
+Shared pieces live next to those modules: `data.py` loads `data/mnist.npz`, `gpu.py` turns on tensorflow-metal, `figures.py` writes the plots. The dataset, trained weights, and figures stay on this machine and are not in git.
 
 ## Setup
 

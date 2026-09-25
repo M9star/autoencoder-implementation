@@ -7,3 +7,11 @@ __pycache__/
 .env.*
 *.egg-info/
 .cursor/
+
+# local only — not source
+data/*
+!data/.gitkeep
+models/**
+!models/.gitkeep
+outputs/**
+!outputs/.gitkeep
